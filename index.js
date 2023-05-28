@@ -126,6 +126,18 @@ const n_client1 = document.getElementById('n_client1');
 const n_contact = document.getElementById('n_contact');
 const n_contact1 = document.getElementById('n_contact1');
 
+// for larger screen
+const nl_home = document.getElementById('nl_home');
+const nl_home1 = document.getElementById('nl_home1');
+const nl_services = document.getElementById('nl_services');
+const nl_services1 = document.getElementById('nl_services1');
+const nl_work = document.getElementById('nl_work');
+const nl_work1 = document.getElementById('nl_work1');
+const nl_client = document.getElementById('nl_client');
+const nl_client1 = document.getElementById('nl_client1');
+const nl_contact = document.getElementById('nl_contact');
+const nl_contact1 = document.getElementById('nl_contact1');
+
 
 
 n_home.addEventListener('mouseover',function(){
@@ -161,6 +173,43 @@ n_contact.addEventListener('mouseover',function(){
 });
 n_contact.addEventListener('mouseleave',function(){
     n_contact1.style='width:0'
+})
+
+// for larger screen
+
+n_home.addEventListener('mouseover',function(){
+    n_home1.style=`width:${n_home.offsetWidth}px`
+});
+n_home.addEventListener('mouseleave',function(){
+    n_home1.style='width:0'
+})
+
+nl_services.addEventListener('mouseover',function(){
+    nl_services1.style=`width:${nl_services.offsetWidth}px`
+});
+nl_services.addEventListener('mouseleave',function(){
+    nl_services1.style='width:0'
+})
+
+nl_work.addEventListener('mouseover',function(){
+    nl_work1.style=`width:${nl_work.offsetWidth}px`
+});
+nl_work.addEventListener('mouseleave',function(){
+    nl_work1.style='width:0'
+})
+
+nl_client.addEventListener('mouseover',function(){
+    nl_client1.style=`width:${nl_client.offsetWidth}px`
+});
+nl_client.addEventListener('mouseleave',function(){
+    nl_client1.style='width:0'
+})
+
+nl_contact.addEventListener('mouseover',function(){
+    nl_contact1.style=`width:${nl_contact.offsetWidth}px`
+});
+nl_contact.addEventListener('mouseleave',function(){
+    nl_contact1.style='width:0'
 })
 
 // hamburger
