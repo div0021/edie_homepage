@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+      
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,700,1,0" />
+   
+
+    <title>Devchallenges</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Heebo:wght@800&family=Montserrat:wght@700&family=PT+Serif:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&family=Space+Mono:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+      <!-- font awesome link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body class="font-poppins bg-[#F7F7F7] 2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center">
+     <div class="max-w-[1528px] 2xl:flex 2xl:flex-col 2xl:justify-center">
+
+    
+    <header class="bg-[#F7F7F7] fixed top-0 w-[23.5rem] tiny:w-[25rem] micro:w-96 mini:w-[26rem] minior:w-[34rem] md:w-full max-w-full 2xl:w-[75rem] z-50">
+      <div>
+        <div class="flex justify-between items-center p-3 minior:pl-5">
+          <h1 class="text-3xl font-extrabold text-[#333333] font-heebo hover:cursor-pointer">
+            Edie
+          </h1>
+          <div class="lg:hidden flex flex-col space-y-1 hover:cursor-pointer transition-all duration-500 ease-in-out origin-center mr-2" id="hamburger">
+            <span class="w-7 h-1 bg-slate-600 rounded-lg transition-all duration-500 ease-in-out" id="ham1"></span>
+            <span class="w-7 h-1 bg-slate-600 rounded-lg transition-all duration-500 ease-in-out" id="ham2"></span>
+            <span class="w-7 h-1 bg-slate-600 ml-auto rounded-lg transition-all duration-500 ease-in-out" id="ham3"></span>
+          </div>
+
+          <!-- At larger screen -->
+          <div class="hidden lg:block lg:visible lg:pr-5">
+            <div class="space-x-10 flex justify-center items-center">
+              <div class="-space-y-1"><a id="n_home" href="#home_section" class="hover:cursor-pointer font-light text-md">Home</a><hr class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-black" id="n_home1"/></div>
+              <div class="-space-y-1"><a href="#services_section" id="n_services" class="hover:cursor-pointer font-light text-md">Services</a><hr class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-black" id="n_services1"/></div>
+    
+              <div class="-space-y-1"><a href="#work_section" id="n_work" class="hover:cursor-pointer font-light text-md">Our Works</a><hr id="n_work1" class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-black"/></div>
+    
+              <div class="-space-y-1"><a href="#client_section" id="n_client" class="hover:cursor-pointer font-light text-md">Client</a><hr class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-black" id="n_client1"/></div>
+              <div class="-space-y-1"><a href="#contact_section" id="n_contact" class="hover:cursor-pointer font-light text-md">Contact</a><hr class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-black" id="n_contact1"/></div>
+    
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="max-h-56 h-0 overflow-hidden transition-all ease-in-out duration-1000 rounded-bl-xl rounded-br-xl" id="pop">
+        <div class="flex justify-center items-center p-5">
+          <div>
+            <div class="space-y-4 w-80 flex flex-col justify-center items-center">
+              <div class="-space-y-1"><a href="#home_section" id="n_home" class="hover:cursor-pointer font-light text-md">Home</a><hr class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-black" id="n_home1"/></div>
+              <div class="-space-y-1"><a href="#services_section" id="n_services" class="hover:cursor-pointer font-light text-md">Services</a><hr class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-black" id="n_services1"/></div>
+    
+              <div class="-space-y-1"><a href="#work_section" id="n_work" class="hover:cursor-pointer font-light text-md">Our Works</a><hr id="n_work1" class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-black"/></div>
+    
+              <div class="-space-y-1"><a href="#client_section" id="n_client" class="hover:cursor-pointer font-light text-md">Client</a><hr class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-black" id="n_client1"/></div>
+              <div class="-space-y-1"><a href="#contact_section" id="n_contact" class="hover:cursor-pointer font-light text-md">Contact</a><hr class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-black" id="n_contact1"/></div>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="bg-[#F7F7F7] mt-20">
+
+      <div>
+        <div class="mt-10">
+          <div class="ml-10 md:ml-32 space-y-1" id="home_section">
+            <h4 class="text-[#2d9cdb] text-[0.6rem] md:text-sm hover:cursor-pointer hover:underline">Unhappy with your website?</h4>
+            <h1 class="text-[#333333] text-2xl tracking-wide w-[17.5rem] mt-0 md:text-3xl md:w-[23rem]">We create beautiful and fast web services</h1>
+          </div>
+          <div class="p-2 minior:pl-5 mt-5 lmd:pl-10 mb-5">
+            <div class="w-[22.5rem] rounded-lg h-24 micro:w-[23rem] mini:w-[25rem] mini:h-28 minior:w-[31.5rem] md:w-[calc(100%-1.25rem)] md:h-48 lmd:w-[52rem] lmd:h-56 lg:w-[calc(100%-1.25rem)] lg:h-60 xl:h-80 2xl:h-96 bg-no-repeat bg-cover" style="background-image: url('heroImage.jpg');">
+
+            </div>
+          </div>
+         
+          <div class="ml-10 md:ml-32 space-y-5">
+            <h1 class="text-[#333333] text-2xl tracking-wide w-52 mt-0">
+              Story, emotion and purpose
+            </h1>
+            <p class="text-xs w-[17rem] mini:w-80 text-[#4f4f4f] lg:w-96 lg:text-sm">
+              We help transform your ideas into real world application that will outperform your toughest competition and help you achieve your strategic goal in short period of time.
+            </p>
+          </div>
+          <form action="" class="mt-5 ml-10 md:ml-32 space-y-1">
+            <label class="text-[0.6rem] text[#828282] ">Want us to contact you?</label><br/>
+            <div class="rounded-lg bg-[#f2f2f2] w-72 p-1 flex justify-between lg:w-96">
+              <input type="email" 
+              class="outline-none bg-[#f2f2f2] pl-4 w-44 lg:w-64 text-sm"
+              name="email" id="email" placeholder="Email" />
+              <button type="submit"
+              class="p-2 font-semibold rounded-xl text-white bg-[#2D9CDB] w-24"
+              >Join</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="mt-10 md:mt-20">
+          <div>
+            <div class="space-y-20" id="services_section">
+              <h2 class="ml-10  md:ml-32 text-2xl md:text-3xl md:w-72 micro:w-56 mini:w-64">We offer high demand services</h2>
+
+               <div class="space-y-20 md:flex md:flex-wrap md:space-y-0 md:justify-around lg:justify-center">
+              <!-- UX -->
+              <div class="space-y-10 m-2 hover:bg-white rounded-2xl p-8">
+                <div class="bg-[#2d9cdb] rounded-2xl w-16 h-16 flex justify-center items-center">
+                  <span class="material-symbols-rounded text-white text-4xl">
+                    edit
+                    </span>               </div>
+                <h4 class="font-bold text-2xl">
+                  UI/UX Design
+                </h4>
+                <p class="font-normal text-base text-[#4f4f4f] w-64 micro:w-72 mini:w-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt saepe possimus, et blanditiis rerum nisi provident! Ratione temporibus ab quos. </p>
+
+                <button class="text-[#828282] rounded-2xl bg-[#e0e0e0] p-3 w-32 hover:text-white hover:bg-[#2d9cdb]">Get started</button>
+              </div>
+
+              <!-- Frontend -->
+
+              <div class="space-y-10 m-2 hover:bg-white rounded-2xl p-8">
+                <div class="bg-[#27ae60] rounded-2xl w-16 h-16 flex justify-center items-center">
+                  <span class="material-symbols-rounded  text-4xl text-white rotate-90">
+                    unfold_more
+                    </span>              </div>
+                <h4 class="font-bold text-2xl">
+                  Front End
+                </h4>
+                <p class="font-normal text-base text-[#4f4f4f] w-64 micro:w-72 mini:w-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt saepe possimus, et blanditiis rerum nisi provident! Ratione temporibus ab quos. </p>
+
+                <button class="text-[#828282] rounded-2xl bg-[#e0e0e0] p-3 w-32 hover:text-white hover:bg-[#2d9cdb] ">Get started</button>
+              </div>
+
+              <!-- Backend -->
+              <div class="space-y-10 hover:bg-white rounded-xl m-2 p-8">
+                <div class="bg-[#eb5757] rounded-2xl w-16 h-16 flex justify-center items-center">
+                  <span class="material-symbols-rounded text-4xl text-white">
+                    storage
+                    </span>         </div>
+                <h4 class="font-bold text-2xl">
+                  Back End
+                </h4>
+                <p class="font-normal text-base text-[#4f4f4f] w-64 micro:w-72  mini:w-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt saepe possimus, et blanditiis rerum nisi provident! Ratione temporibus ab quos. </p>
+
+                <button class="text-[#828282] rounded-2xl bg-[#e0e0e0] p-3 w-32 hover:text-white hover:bg-[#2d9cdb]">Get started</button>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="p-3 mt-16">
+        <div class="space-y-10 md:space-y-20" id="work_section">
+          <h4 class="text-2xl md:text-3xl ml-8 md:ml-28 w-64 md:w-80">
+            Good design means good business
+          </h4>
+          <div class="md:flex md:flex-wrap md:justify-evenly lg:justify-center lg:space-x-10">
+            <div class="lg:space-y-20">
+
+            
+          <!-- 1 -->
+          <div class="mt-24">
+            <div class="overflow-hidden w-[22rem] micro:w-[22.5rem] mini:w-96  h-96 rounded-2xl hover:cursor-pointer  relative">
+              <div class="absolute w-full h-4/5 bg-red-400 z-10 transition-transform ease-in-out duration-700 bottom-0 img1">
+
+              </div>
+              <div class=" w-[22rem] micro:w-[22.5rem] mini:w-96 h-96 bg-no-repeat bg-cover" style="background-image: url('smarthome.jpg');">
+          
+              </div>
+              <div class="absolute w-full h-full bg-transparent z-20 bottom-0 img11">
+
+              </div>
+            </div>
+           
+            <div>
+              <p class="text-[10px]  text-[#828282]">Full stack application</p>
+              <p class="hover:underline hover:cursor-pointer w-52">Smart home dashboard</p>
+            </div>
+           
+          </div>
+
+
+          <!-- 2 -->
+
+          <div class="space-y-3">
+            <div class="overflow-hidden w-[22rem] mini:w-96 micro:w-[22.5rem] h-96 rounded-2xl hover:cursor-pointer  relative">
+              <div class="absolute w-[30rem] h-96 -translate-x-12 bg -slate-300/10 backdrop-filter  backdrop-blur-md  z-10 
+              transition-opacity ease-in-out duration-1000 bottom-0 img2
+               -rotate-[15deg]">
+
+              </div>
+              <div class=" w-[22rem] mini:w-96 micro:w-[22.5rem] h-96 bg-no-repeat bg-cover" style="background-image: url('onboard.png');">
+          
+              </div>
+              <div class="absolute w-full h-full bg-transparent z-20 bottom-0 img21">
+
+              </div>
+            </div>
+           
+            <div>
+              <p class="text-[10px]  text-[#828282]">UX/UI design</p>
+              <p class="hover:underline hover:cursor-pointer w-44">Onboard application</p>
+            </div>
+           
+          </div>
+        </div>
+
+
+          <div class="lg:space-y-20">
+          <!-- 3 -->
+          <div class="space-y-3">
+            <div class="overflow-hidden w-[22rem] mini:w-96 micro:w-[22.5rem] h-96 rounded-2xl hover:cursor-pointer  relative">
+              <div class="absolute w-96 h-96   rounded-full bg-[#424874]/90 z-10 transition-all -right-4 minior:right-0 
+              bottom-0 ease-in-out duration-1000  img3">
+
+              </div>
+              <div class=" w-[22rem] mini:w-96 micro:w-[22.5rem] h-96 bg-no-repeat bg-cover" style="background-image: url('booking.png');">
+          
+              </div>
+              <div class="absolute w-full h-full bg-transparent z-20 bottom-0 img31">
+
+              </div>
+            </div>
+           
+            <div>
+              <p class="text-[10px]  text-[#828282]">moblie application</p>
+              <p class="hover:underline hover:cursor-pointer w-44">Booking system</p>
+            </div>
+           
+          </div>
+
+          <!-- 4 -->
+          
+          <div class="space-y-3">
+            <div class="overflow-hidden w-[22rem] mini:w-96 micro:w-[22.5rem] h-96 rounded-2xl hover:cursor-pointer  relative">
+              <div class="absolute w-full h-2/5 bg-[#1f6f29]/90 z-10 transition-transform ease-in-out duration-700 bottom-0 img4">
+
+              </div>
+
+              <div class="overflow-hidden w-[22rem] mini:w-96 micro:w-[22.5rem] h-96 rounded-2xl hover:cursor-pointer  relative">
+                <div class="absolute w-full h-2/5 bg-[#1f6f29]/90 z-10 transition-transform ease-in-out duration-1000 delay-500 top-0  img5">
+  
+                </div>
+
+              <div class=" w-[22rem] mini:w-96 micro:w-[22.5rem] h-96 bg-no-repeat bg-cover" style="background-image: url('juice-product.png');">
+          
+              </div>
+              <div class="absolute w-full h-full bg-transparent z-20 bottom-0 img41">
+
+              </div>
+            </div>
+           
+          
+           
+          </div>
+          <div>
+            <p class="text-[10px]  text-[#828282]">Front End application application</p>
+            <p class="hover:underline hover:cursor-pointer w-60">Juice product homepage</p>
+          </div>
+
+         
+
+        </div>
+      </div>
+
+
+      </div>
+        <div class="text-[#2d9cdb] flex items-center space-x-1 md:justify-end md:pr-5 lmd:pr-10"><span class="hover:underline hover:cursor-pointer ">
+          see more    
+        </span>  <span class="material-symbols-rounded">
+          east
+          </span></div>
+
+          
+      </div>
+      </div>
+
+      <div class="mt-10 md:mt-28 p-3 space-y-5 md:flex md:justify-around md:items-center lg:justify-center xl:justify-around lg:space-x-5">
+        <div class="space-y-5" id="client_section">
+          <p  class="text-red-600">Meet the team</p>
+          <h3 class="text-4xl w-72 lg:w-96 leading-normal">We are chilled and a laidback team</h3>
+          <p class="w-64 mini:w-72  text-[#4f4f4f] text-sm font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+     
+
+        <div class="flex items-center space-x-3 w-[22rem] lg:w-[30rem]">
+           <div class="w-52 h-48 lg:w-72 lg:h-64 bg-no-repeat bg-cover rounded-xl" style="background-image: url('person3.png');">
+
+           </div>
+           <div class="space-y-3">
+            <div class="w-36 h-36 lg:w-48 lg:h-48 bg-no-repeat bg-cover rounded-xl" style="background-image: url('person1.png');">
+
+            </div>
+            <div class=" w-40 h-36 lg:w-52 lg:h-48 bg-no-repeat bg-cover rounded-xl" style="background-image: url('person2.png');">
+
+            </div>
+           </div>
+
+            
+        </div>
+      </div>
+
+      <div class="mt-20 p-3 h-80 space-y-5 mini:space-y-10 md:pl-24 lg:pl-40">
+        <p class="text-2xl w-80 mini:w-96 minior:w-[25rem] md:w-[40rem] lg:w-[45rem]">"Fast and outstanding resultIs. Edie understands their customer's needs. They have a young and talented team."</p>
+
+        <div class="flex space-x-5">
+          <div class=" w-16 h-16 bg-no-repeat bg-cover rounded-xl hover:cursor-pointer" style="background-image: url('person4.png');">
+
+          </div>
+          <div class="space-y-1">
+              <p class="text-2xl hover:cursor-pointer">Carlos Tran</p>
+              <p class="text-lg text-[#828282]">The Decorate Gatsby</p>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="bg-black text-[#f2f2f2] h-[40rem] p-10  relative  w-[23.5rem] mini:w-[26rem] micro:w-96 tiny:w-[25rem] rounded-t-lg minior:w-[34rem] minior:h-[30rem] md:w-full lg:h-80 tiny:max-w-full">
+      <div class="space-y-10 minior:flex minior:flex-wrap md:space-x-20 md:justify-evenly" id="contact_section">
+        <div class="space-y-2 w-80 ">
+          <div><a href="#home_section" id="home" class="hover:cursor-pointer font-light text-md">Home</a><hr class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-white" id="home1"/></div>
+          <div><a href="#services_section" id="services" class="hover:cursor-pointer font-light text-md">Services</a><hr class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-white" id="services1"/></div>
+
+          <div><a href="#work_section" id="work" class="hover:cursor-pointer font-light text-md">Our Works</a><hr id="work1" class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-white"/></div>
+
+          <div><a href="#client_section" id="client" class="hover:cursor-pointer font-light text-md">Client</a><hr class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-white" id="client1"/></div>
+          <div><a href="#contact_section" id="contact" class="hover:cursor-pointer font-light text-md">Contact</a><hr class="w-0 transition-all duration-1000 ease-in-out h-0.5 bg-white" id="contact1"/></div>
+
+        </div>
+      
+
+      <div class="space-y-5">
+        <h1 class="font-heebo font-extrabold text-4xl hover:cursor-pointer">Edie</h1>
+        <div class="space-x-2">
+          <i class="fa-brands fa-instagram fa-2xl hover:cursor-pointer" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-linkedin fa-2xl hover:cursor-pointer" style="color: #ffffff;"></i>
+
+          <i class="fa-brands fa-square-twitter fa-2xl hover:cursor-pointer" style="color: #ffffff;"></i>
+        </div>
+      </div>
+
+      <form action="" class="mt-5 ml-1 space-y-1">
+        <label class="text-[0.6rem] text[#828282] ">Want us to contact you?</label><br/>
+        <div class="rounded-2xl bg-[#f2f2f2] w-72 p-1 flex justify-between xl:w-96">
+          <input type="email" 
+          class="outline-none bg-[#f2f2f2] text-black pl-4 w-44 xl:w-64 text-sm"
+          name="email" id="email" placeholder="Email" required/>
+          <button type="submit"
+          class="p-2 font-semibold rounded-xl text-white bg-[#2D9CDB] w-24"
+          >Join</button>
+        </div>
+      </form>
+     </div>
+      <p class="text-center mt-32 lg:mt-20 text-[#828282] text-sm">Don't copy, build yours (<i>Div</i>)!!</p>
+    </footer>
+  </div>
+    <script src="index.js"></script>
+  </body>
+</html>
