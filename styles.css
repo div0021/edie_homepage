@@ -1568,13 +1568,17 @@ video {
   }
 }
 
-@media (min-width: 1529px) {
+@media (min-width: 1528px) {
   .\32xl\:flex {
     display: flex;
   }
 
   .\32xl\:h-96 {
     height: 24rem;
+  }
+
+  .\32xl\:h-72 {
+    height: 18rem;
   }
 
   .\32xl\:w-\[75rem\] {
