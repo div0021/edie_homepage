@@ -140,6 +140,7 @@ const nl_contact1 = document.getElementById('nl_contact1');
 
 
 
+
 n_home.addEventListener('mouseover',function(){
     n_home1.style=`width:${n_home.offsetWidth}px`
 });
@@ -177,11 +178,11 @@ n_contact.addEventListener('mouseleave',function(){
 
 // for larger screen
 
-n_home.addEventListener('mouseover',function(){
-    n_home1.style=`width:${n_home.offsetWidth}px`
+nl_home.addEventListener('mouseover',function(){
+    nl_home1.style=`width:${nl_home.offsetWidth}px`
 });
-n_home.addEventListener('mouseleave',function(){
-    n_home1.style='width:0'
+nl_home.addEventListener('mouseleave',function(){
+    nl_home1.style='width:0'
 })
 
 nl_services.addEventListener('mouseover',function(){
@@ -220,6 +221,52 @@ const ham1=document.getElementById('ham1');
 const ham2=document.getElementById('ham2');
 const ham3=document.getElementById('ham3');
 const pop = document.getElementById('pop');
+
+n_home.addEventListener('click',function(){
+     pop.style='height:0'
+      hamburger.style='transform:rotate(0)'
+        hamburger.classList.remove('ham');
+        
+        ham1.style='transform-origin:2px;transform:rotate(0)'
+        ham2.style='opacity:1'
+        ham3.style='transform-origin:2px;transform:rotate(0)'
+})
+n_client.addEventListener('click',function(){
+    pop.style='height:0'
+     hamburger.style='transform:rotate(0)'
+        hamburger.classList.remove('ham');
+        
+        ham1.style='transform-origin:2px;transform:rotate(0)'
+        ham2.style='opacity:1'
+        ham3.style='transform-origin:2px;transform:rotate(0)'
+})
+n_contact.addEventListener('click',function(){
+    pop.style='height:0'
+     hamburger.style='transform:rotate(0)'
+        hamburger.classList.remove('ham');
+        
+        ham1.style='transform-origin:2px;transform:rotate(0)'
+        ham2.style='opacity:1'
+        ham3.style='transform-origin:2px;transform:rotate(0)'
+})
+n_services.addEventListener('click',function(){
+    pop.style='height:0'
+     hamburger.style='transform:rotate(0)'
+        hamburger.classList.remove('ham');
+        
+        ham1.style='transform-origin:2px;transform:rotate(0)'
+        ham2.style='opacity:1'
+        ham3.style='transform-origin:2px;transform:rotate(0)'
+})
+n_work.addEventListener('click',function(){
+    pop.style='height:0'
+    hamburger.style='transform:rotate(0)'
+    hamburger.classList.remove('ham');
+    
+    ham1.style='transform-origin:2px;transform:rotate(0)'
+    ham2.style='opacity:1'
+    ham3.style='transform-origin:2px;transform:rotate(0)'
+})
 
 hamburger.addEventListener('click',function(){
     

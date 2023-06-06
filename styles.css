@@ -1572,10 +1572,6 @@ video {
   .\31\.5xl\:h-96 {
     height: 24rem;
   }
-
-  .\31\.5xl\:w-96 {
-    width: 24rem;
-  }
 }
 
 @media (min-width: 1529px) {
